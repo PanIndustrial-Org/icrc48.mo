@@ -1,0 +1,21 @@
+[package]
+name = "icrc48-mo"
+version = "0.0.1"
+description = "Pipeline functions for long running processes on the IC in motoko."
+repository = "https://github.com/PanIndustrial-Org/icrc48.mo"
+keywords = [workflow, pipeline, icrc]
+license = "MIT"
+
+[dependencies]
+base = "https://github.com/dfinity/motoko-base#moc-0.10.1@80ededb39954739b18b88fc0e5561264003cf9ab"
+map9 = "https://github.com/ZhenyaUsenko/motoko-hash-map#v9.0.1@10b68f6ea8df5e72dfa4c07a50c8bb60a916c233"
+stablebuffer_1_3_0 = "https://github.com/canscale/StableBuffer#v1.3.0@acdde6bb5b939227997cebdbb8919d2e6da8691c"
+itertools = "0.1.2"
+vector = "0.2.0"
+star = "0.1.1"
+candy = "0.3.0"
+
+[dev-dependencies]
+test = "1.2.0"
+fuzz = "0.2.0"
+matchers = "https://github.com/kritzcreek/motoko-matchers#v1.3.0@3dac8a071b69e4e651b25a7d9683fe831eb7cffd"

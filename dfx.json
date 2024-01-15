@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "pipelinify_testRunner": {
+      "main": "canisters/_pipelinifyTest-Runner.mo",
+      "type": "motoko"
+    },
+    "pipelinify_testConsumer": {
+      "main": "canisters/_pipelinifyTest-Consumer.mo",
+      "type": "motoko"
+    },
+    "pipelinify_testProcessor": {
+      "main": "canisters/_pipelinifyTest-Processor.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "dfx": "0.15.2",
+ 
+  "version": 1
+}
